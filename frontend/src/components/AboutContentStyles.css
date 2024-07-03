@@ -1,0 +1,48 @@
+/* styling */
+.text-4xl{
+    padding-left: 10px;
+}
+/* .webService,  */
+.textinfo {
+    margin-left: 50%;
+}
+
+.company, 
+.year {
+    margin-left: 5%;
+}
+/* targeting skill */
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 2.5rem;
+}
+/* styling icons */
+i{
+    background-color: rgba(0, 98, 189, 0.147);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-style: normal;
+    color: white;
+}
+.about{
+    margin: 2%;
+}
+
+span{
+    padding-left: 10px;
+}
+
+/* make app to be mobile responsive */
+@media screen and (max-width: 630px) {
+
+    .skill-container{
+       
+        display: flex;
+        flex-wrap: wrap;
+    }
+   
+    
+}
